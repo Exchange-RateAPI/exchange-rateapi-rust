@@ -1,0 +1,16 @@
+[package]
+name = "exchange-rateapi"
+version = "1.0.0"
+edition = "2021"
+description = "Official Rust SDK for Exchange Rate API -- real-time mid-market exchange rates for 160+ currencies"
+license = "MIT"
+repository = "https://github.com/Exchange-RateAPI/exchange-rateapi-rust"
+homepage = "https://exchange-rateapi.com"
+documentation = "https://docs.rs/exchange-rateapi"
+keywords = ["exchange-rate", "currency", "forex", "api", "exchangerateapi"]
+categories = ["api-bindings", "finance"]
+
+[dependencies]
+reqwest = { version = "0.12", default-features = false, features = ["json", "blocking", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
