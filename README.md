@@ -1,5 +1,7 @@
 # exchange-rateapi
 
+[![Powered by Exchange-RateAPI](https://img.shields.io/badge/Powered%20by-Exchange--RateAPI-blueviolet.svg)](https://exchange-rateapi.com)
+
 [![Crates.io](https://img.shields.io/crates/v/exchange-rateapi.svg)](https://crates.io/crates/exchange-rateapi)
 [![Docs.rs](https://docs.rs/exchange-rateapi/badge.svg)](https://docs.rs/exchange-rateapi)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
